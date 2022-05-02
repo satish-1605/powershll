@@ -1,0 +1,1 @@
+New-AzVM -name mywebVM -ResourceGroupName myRG -Location "North Europe" -Size "Standard_D2as_v4"

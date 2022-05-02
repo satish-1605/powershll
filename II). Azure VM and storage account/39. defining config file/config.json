@@ -1,0 +1,40 @@
+{
+"Development":{
+"virtualnetwork":{
+
+    "Name":"dev-network",
+    "Addressspace":"10.0.0.0/16"
+},
+"Subnet":[
+{
+    "name":"dev-subeta",
+    "Addressspace":"10.0.0.0/24"
+},
+{
+    "name":"dev-subetb",
+    "Addressspace":"10.0.1.0/24"
+}
+]
+},
+"Staging":{
+    "virtualnetwork":{
+
+        "Name":"stage-network",
+        "Addressspace":"192.168.0.0/16"
+    },
+    
+"Subnet":[
+
+{
+    "name":"stage-subeta",
+    "Addressspace":"192.168.0.0/24"
+},
+{
+    "name":"stage-subetb",
+    "Addressspace":"192.168.1.0/24"
+}
+]
+}
+
+
+}
